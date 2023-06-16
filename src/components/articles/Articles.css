@@ -1,0 +1,45 @@
+.ar-container {
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.ar-cont {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+.ar-title {
+  font-size: 1.4rem;
+  margin: 15px 0;
+  font-weight: 500;
+  color: #333;
+}
+.ar-credit a {
+  text-decoration: none;
+  color: #888888;
+}
+.ar-content {
+  line-height: 30px;
+}
+.ar-source {
+  margin-top: 20px;
+}
+.ar-source a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+.ar-quoto{
+  margin-top: 25px;
+}
+.ar-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ar-img img{
+  max-width: 100%;
+  margin: 15px 0;
+
+}

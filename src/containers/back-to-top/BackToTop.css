@@ -1,0 +1,26 @@
+.btt-button {
+  background-color: #f7f7f7;
+  color: #888888;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  position: fixed;
+  right: 0;
+  bottom: 150px;
+  height: 35px;
+  width: 35px;
+  border-radius: 50% 0px 0px 50%;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+    .btt-button {
+      height: 32px;
+      width: 32px;
+      font-size: 25px;
+    }
+  }
+  

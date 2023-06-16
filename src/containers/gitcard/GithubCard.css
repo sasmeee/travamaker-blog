@@ -1,0 +1,38 @@
+.gi-table {
+  border-collapse: collapse;
+  width: 300px;
+  margin: 0 0 15px 0;
+}
+
+.gi-table th,
+.gi-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.gi-table th {
+  font-weight: bold;
+  background-color: #f5f5f5;
+  text-align: left;
+}
+
+.gi-table td {
+  color: #666;
+}
+
+@media (max-width: 500px) {
+  .gi-table {
+    width: auto;
+    margin: 0 0 15px 15px;
+  }
+  .gi-table th,
+  .gi-table td {
+    display: block;
+  }
+}
+
+@media (max-width: 315px) {
+  .gi-table {
+    margin: 0 0 15px 0;
+  }
+}

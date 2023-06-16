@@ -1,0 +1,49 @@
+.ct-container {
+  display: block;
+  margin: 10px 32%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px 25px 30px;
+  border-radius: 15px;
+}
+.ct-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #333;
+}
+.ct-title span{
+    color: royalblue;
+}
+.ct-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ct-content input, textarea{
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+.ct-content textarea{
+    padding: 10px;
+}
+.ct-content button{
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    background-color: royalblue;
+    padding: 8px 15px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .ct-container{
+        margin: 10px 10%;
+    }
+    .ct-content button{
+        padding: 5px 11px;
+    }
+}

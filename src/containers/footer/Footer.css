@@ -1,0 +1,35 @@
+.footer {
+  background-color: #f7f7f7;
+  padding: 10px 57px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-text {
+  color: #888888;
+  font-size: 17px;
+}
+.footer-social {
+  display: flex;
+  gap: 20px;
+}
+.footer-icon {
+  color: #888888;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 7px 30px;
+  }
+  .footer-inner {
+    flex-direction: column;
+  }
+}

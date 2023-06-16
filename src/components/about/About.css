@@ -1,0 +1,20 @@
+.ab-container {
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.ab-cont {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+.ab-title {
+  font-size: 1.4rem;
+  margin: 15px 0;
+  font-weight: 500;
+  color: #333;
+}
+.ab-content {
+  line-height: 30px;
+}

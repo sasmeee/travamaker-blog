@@ -1,0 +1,11 @@
+.h-container {
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.h-cont {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+  border-radius: 15px;
+}

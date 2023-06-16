@@ -1,0 +1,6 @@
+export {default as Home} from './home/Home'
+export {default as About} from './about/About'
+export {default as Contact} from './contact/Contact'
+export {default as NoPage} from './nopage/NoPage'
+export {default as Post01} from './articles/PowerOfAI'
+export {default as Post02} from './articles/CompareWaTel'

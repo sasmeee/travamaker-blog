@@ -1,0 +1,16 @@
+[
+  {
+    "post_id": "P001",
+    "post_title": "The Power of Artificial Intelligence",
+    "post_desc": "Artificial Intelligence (AI) is a powerful technology that has the potential to transform many aspects of our lives. AI refers to the ability of machines to perform tasks that would typically require human intelligence, such as recognizing speech, making decisions, and learning from data. With the help of AI, we can automate many tedious and repetitive tasks, analyze vast amounts of data quickly and accurately, and even create new products and services.",
+    "post_img":"#",
+    "post_link": "/post1"
+  },
+  {
+    "post_id": "P002",
+    "post_title": "Comparingthe Features of WhatsApp and Telegram",
+    "post_desc": "WhatsApp and Telegram are two of the most popular messaging apps available today, with millions of users around the world. Both apps offer a wide range of features that make it easy to stay in touch with friends and family, but they differ in some important ways. In this article, we'll take a closer look at the features of WhatsApp and Telegram, and compare them to help you decide which app is right for you.",
+    "post_img":"#",
+    "post_link": "/post2"
+  }
+]
