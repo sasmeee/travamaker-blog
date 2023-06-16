@@ -2,6 +2,10 @@ import React from "react";
 import { FaYoutube, FaInstagram, FaGithub } from "react-icons/fa";
 import "./Footer.css";
 
+const GitURL = 'https://github.com/Sasmeee'
+const InstaURL = 'https://instagram.com/sinhalaya_official_'
+const YtURL = 'https://youtube.com/@travamaker'
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -11,21 +15,21 @@ const Footer = () => {
         </p>
         <div className="footer-social">
           <a
-            href="https://github.com/your-username"
+            href={GitURL}
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaGithub className="footer-icon" />
           </a>
           <a
-            href="https://www.youtube.com/your-channel"
+            href={YtURL}
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaYoutube className="footer-icon" />
           </a>
           <a
-            href="https://www.instagram.com/your-profile"
+            href={InstaURL}
             target="_blank"
             rel="noopener noreferrer"
           >
